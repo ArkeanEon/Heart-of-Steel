@@ -11,6 +11,7 @@ You pilot a spaceship navigating through asteroid fields and hostile robotics. C
 - **W/S**: Thrust forward/backward  
 - **A/D**: Strafe left/right  
 - **Q/E**: Roll ship  
-- **C**: Switch camera perspective  
+- **C**: Switch camera perspective
+- **ESc**: Pause
 
 Your mission: survive the asteroid belt, evade or destroy robotic threats, defeat the boss guarding the exit, and escape through the wormhole.
