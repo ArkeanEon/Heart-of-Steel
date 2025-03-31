@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2788965979289759257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4303131965056340455}
+  - component: {fileID: 2580680041158991702}
+  m_Layer: 0
+  m_Name: CombatSphere
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4303131965056340455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2788965979289759257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.253068, y: 3.9946308, z: 3.0574675}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2580680041158991702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2788965979289759257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec276054f8a69c940b659908d5271d24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnRadius: 300
+  asteroidCount: 100
+  enemyCount: 20
+  spawnerCount: 10
+  asteroidPrefabs:
+  - {fileID: 8766940875300024948, guid: 1a5be6ed9a8e4b244bbfbfe84ef61795, type: 3}
+  - {fileID: 5430137682984833679, guid: 342680defc79b79408da3c9ec48098c1, type: 3}
+  - {fileID: 6440531854114554496, guid: b505e03f83a400b4c939bc551c0eec53, type: 3}
+  - {fileID: 5831561136506165670, guid: ed508d17dad810d418f9b1269c28a776, type: 3}
+  - {fileID: 6098954122201906366, guid: 92bd424a53ef0a54b929fe32109e12cb, type: 3}
+  - {fileID: 1669275605308294600, guid: 404b8467af4638741b0795bb922a52a0, type: 3}
+  - {fileID: 539491068143313544, guid: d1d9b75390b1542408c0973fae202a25, type: 3}
+  enemyPrefabs:
+  - {fileID: 4970526799621197321, guid: 6b7bc9f3c64d017409dde7af7c63eb34, type: 3}
+  - {fileID: 169026952616417904, guid: 8d4244795d78f094f9873db2f44981ca, type: 3}
+  spawnerPrefabs:
+  - {fileID: 8875045710780620497, guid: d606209cd1b69214f867f6dbc95cbb5e, type: 3}
+  - {fileID: 1957205726615600870, guid: 3ebb1c6360ad89044a19580094df3ec8, type: 3}
+  minScale: 2.5
+  maxScale: 5
+  asteroidMinDistance: 10
+  enemyMinDistance: 10
+  spawnerMinDistance: 10
